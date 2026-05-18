@@ -260,6 +260,12 @@
   .my-15 {
     margin-block: calc(var(--spacing) * 15);
   }
+  .my-32 {
+    margin-block: calc(var(--spacing) * 32);
+  }
+  .my-32\.5 {
+    margin-block: calc(var(--spacing) * 32.5);
+  }
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
@@ -391,6 +397,9 @@
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
+  }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -653,6 +662,9 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[70px\] {
+    font-size: 70px;
+  }
   .leading-4 {
     --tw-leading: calc(var(--spacing) * 4);
     line-height: calc(var(--spacing) * 4);
@@ -692,6 +704,14 @@
   .leading-15 {
     --tw-leading: calc(var(--spacing) * 15);
     line-height: calc(var(--spacing) * 15);
+  }
+  .leading-22 {
+    --tw-leading: calc(var(--spacing) * 22);
+    line-height: calc(var(--spacing) * 22);
+  }
+  .leading-22\.5 {
+    --tw-leading: calc(var(--spacing) * 22.5);
+    line-height: calc(var(--spacing) * 22.5);
   }
   .leading-\[48px\] {
     --tw-leading: 48px;
