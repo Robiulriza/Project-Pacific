@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 970px;
+  --breakpoint-xl: 1170px;
+  --font-inter: "Inter", sans-serif;
+  --shadow-btn: 0px 4px 14px #ffffff29;
+}
+
+
+@utility container {
+    @apply  mx-auto;
+}
+
+@utility btn {
+    @apply px-[31px] mx-auto py-[15px] bg-[#89D32A] text-white font-semibold text-xl rounded-[10px] hover:bg-green-800 cursor-pointer
+}
